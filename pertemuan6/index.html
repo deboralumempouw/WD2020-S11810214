@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Design class" />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScripth">
+    <meta name="author" content="John Doe">
+    <title>HTML Tag untuk Tabel</title>
+</head>
+<body> 
+    <h1>Table</h1>
+    <table cellspacing="10">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>No Telepon</th>
+                <th>Fakultas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>0123456789</td>
+                <td>FIK</td>
+            </tr>
+            <tr>
+                <td>Mike Hiller</td>
+                <td>03215659595</td>
+                <td>COMBIS</td>
+            </tr>
+        </tbody>
+     </table>
+     <hr>
+     <h1>Form</h1>
+     <fieldset>
+        <form action="">
+            <label for="username">Username :</label>
+            <input type="text" id="username"placeholder="Username" required/>
+            <br></br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"placeholder="email"required/>
+            <br></br>
+            <label for="password">Password</label>
+            <input type="password" id="password"placeholder="password"required/>
+            <br></br>
+            <label for="gender">Jenis Kelamin</label>
+            <input type="radio"name="gender" id="gender"value="Laki-laki" checked /> 
+            Laki-laki
+            <input type="radio"name="gender" id="gender"value="Perempuan" checked/> 
+            Perempuan
+            <br></br>
+            <label for="skill">Bahasa yang dikuasai :</label>
+            <br></br>
+            <input type="checkbox" name="skill" id="skill"checked/>HTML
+           <input type="checkbox" name="skill" id="skill"/>CSS
+            <input type="checkbox" name="skill" id="skill"/>JavaScripth
+            <br></br>
+            <label for="daerah-asal">Daerah asal :</label>
+            <select id="daerah asal">
+           <option value="manado">Manado</option>
+           <option value="Minahasa-utara">Minahasa Utara</option>
+           <option value="Bitung">Bitung</option>
+            </select>
+            <br><br>
+          <label for="pesan">Pesan Anda :</label>
+          <br><br>
+          <textarea rows="4" cols="50" placeholder="Tulis komentar anda disini..."></textarea>
+         </textarea>
+           </form>
+            <input type="submit" value="submit">
+       </form>
+     </fieldset>
+    
+</body>
+</html>
