@@ -1,0 +1,11 @@
+/* 1em = 16px */
+h1 {
+    font-family: 'Give You Glory', cursive;
+    font-size: 5.625rem;
+    text-align: center;
+    /* width: 50%;
+    margin: 0 auto; */
+}
+p {
+    font-family: 'Nunito', sans-serif;
+}
